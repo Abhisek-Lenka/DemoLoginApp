@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: 0;
+}
+
+body {
+	font-family: calibri;
+}
+
+button {
+	min-height: 7vh;
+	min-width: 30vh;
+	justify-content: center;
+	align-items: center;
+}
+
+input{
+	min-height: 5vh;
+	min-width: 30vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.radioButtons input{
+	min-height: 1vh;
+	min-width: 3vh;
+	justify-content: center;
+	align-items: center;
+}
+
+div#mainContent {
+	display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+div#buttons button {
+	min-height: 10vh;
+	min-width: 20vh;
+	justify-content: center;
+	align-items: center;
+}
+
+div#loginForm button {
+	min-height: 7vh;
+	min-width: 30vh;
+	justify-content: center;
+	align-items: center;
+}

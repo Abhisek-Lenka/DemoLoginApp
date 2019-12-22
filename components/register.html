@@ -1,0 +1,19 @@
+<div id="registerForm">
+	<div class="input">
+		<input type="text" ng-model="username" placeholder="Username">
+	</div><br>
+	<div class="input">
+		<input type="password" ng-model="password" placeholder="Password">
+	</div><br>
+	<div class="input">
+		<input type="email" ng-model="email" placeholder="Email">
+	</div><br>
+	<div class="radioButtons">
+		<input type="radio" ng-model="gender" value="male"> Male
+        <input type="radio" ng-model="gender" value="female"> Female
+        <input type="radio" ng-model="gender" value="other"> Other
+	</div><br>
+	<div>
+		<button ng-click="registerUser()">Register</button>
+	</div>
+</div>
